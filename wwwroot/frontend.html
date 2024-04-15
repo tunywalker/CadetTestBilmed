@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Frontend</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+
+
+    <div id="loginSection">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="User-5E638711-2D64-47B0-A8F5-1C5A9EADA966"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="Pass-E4A679C7-2F4B-40AE-9DC8-C967EF7215AE"><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <label id="errorLabel" style="color: red;"></label>
+    </div>
+
+
+
+
+    <div id="tableSection">
+        <button id="logoutButton" style="display: none;">Logout</button>
+
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Type</th>
+                    <th>Recipient</th>
+                    <th>Status</th>
+                    <th>Recipient Type</th>
+                    <th>
+                        <button id="newButton" class="button add">New</button>
+                    </th>
+                </tr>
+            </thead>
+            </thead>
+            <tbody>
+                <!-- Tablo içeriği -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/js/scripts.js"></script>
+  
+</body>
+</html>
